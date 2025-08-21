@@ -1,0 +1,25 @@
+/* style.css */
+
+/* Mengatur font untuk seluruh halaman untuk konsistensi */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Mengatur transisi halus pada semua elemen untuk animasi yang lebih baik */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Mengatur gaya dasar untuk tombol */
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+/* Menghilangkan border pada focus untuk input */
+input:focus {
+    outline: none;
+    border-color: transparent;
+}
